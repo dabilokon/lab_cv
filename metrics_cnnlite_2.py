@@ -15,7 +15,7 @@ from sklearn.metrics import (
     auc
 )
 
-# 👇 ПІДРЕДАГУЙ ПІД СЕБЕ
+
 from model_cnnlite import CNNLite
 from data3 import val_loader
 
@@ -162,3 +162,4 @@ for bar in bars:
 plt.tight_layout()
 
 plt.show()
+
