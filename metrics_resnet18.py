@@ -17,7 +17,7 @@ from sklearn.metrics import (
     auc
 )
 
-# 👇 СВОЇ ІМПОРТИ
+
 from model_resnet18 import ResNet18_Custom      # архітектура ResNet-18
 from data3 import val_loader                   # твій val_loader
 
@@ -184,3 +184,4 @@ for bar in bars:
 
 plt.tight_layout()
 plt.show()
+
