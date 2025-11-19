@@ -17,7 +17,7 @@ from sklearn.metrics import (
     auc
 )
 
-# 👇 СВОЇ ІМПОРТИ
+
 from model_mobilenetv2 import MobileNetV2_Custom   # архітектура моделі
 from data3 import val_loader                       # твій val_loader
 
@@ -127,7 +127,6 @@ plt.title("Додаткові метрики ефективності модел
 plt.ylabel("Значення (у відповідних одиницях)")
 plt.grid(axis="y", linestyle="--", alpha=0.5)
 
-# ↓↓↓ Цифри всередині стовпчика (нижче вершини, щоб не залазили на назву)
 for bar, value in zip(bars, extra_values):
     plt.text(
         bar.get_x() + bar.get_width() / 2,
@@ -183,3 +182,4 @@ for bar in bars:
 
 plt.tight_layout()
 plt.show()
+
